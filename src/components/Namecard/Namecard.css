@@ -1,0 +1,27 @@
+.namecard {
+
+    color: #e7e9f0;
+    background-color: #282d4f;
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    min-width: 5em;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255, 0.1);
+    transition: background-color 3.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.namecard:hover {
+    background-color: rgb(189, 63, 189);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255, 0.3);
+}
+
+.names {
+    margin: 0;
+    font-weight: 100;
+}
+
+.link {
+    text-decoration: none;
+}

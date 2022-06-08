@@ -1,0 +1,39 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.head-img {
+    width: auto;
+    transition: min-width 1s, max-width 1s;
+
+}
+
+.head-img-expanded {
+    min-width: 13em;
+    max-width: 15em;
+}
+
+.head-img-contracted {
+    min-width: 3em;
+    max-width: 5em;
+}
+
+.head-text {
+    font-family: 'Wachi Maru Pop', cursive;
+    font-weight: lighter;
+    margin: 0.5em 0em 1em 0em;
+    transition: font-size 1s;
+}
+
+.head-text-expanded {
+
+    font-size: 2em;
+}
+
+.head-text-contracted {
+    font-size: 1em;
+}
